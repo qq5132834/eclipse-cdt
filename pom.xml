@@ -139,6 +139,7 @@
 		<module>core/org.eclipse.cdt.core</module>
 		<module>core/org.eclipse.cdt.ui</module>
 		
+		<!-- 
 		<module>cross/org.eclipse.cdt.build.crossgcc</module>
 		<module>cross/org.eclipse.cdt.build.crossgcc-feature</module>
 		<module>cross/org.eclipse.cdt.launch.remote</module>
@@ -239,55 +240,55 @@
 		<module>tools.templates/org.eclipse.tools.templates.core</module>
 		<module>tools.templates/org.eclipse.tools.templates.freemarker</module>
 		<module>tools.templates/org.eclipse.tools.templates.ui</module>
-
+ -->
 		<!-- Remote bundles -->
-		<module>remote/org.eclipse.remote.core</module>
+		<!-- <module>remote/org.eclipse.remote.core</module>
 		<module>remote/org.eclipse.remote.jsch.core</module>
 		<module>remote/org.eclipse.remote.jsch.ui</module>
-		<module>remote/org.eclipse.remote.ui</module>
+		<module>remote/org.eclipse.remote.ui</module> -->
 		<!-- Proxy bundles -->
-		<module>remote/org.eclipse.remote.proxy.core</module>
+		<!-- <module>remote/org.eclipse.remote.proxy.core</module>
 		<module>remote/org.eclipse.remote.proxy.ui</module>
 		<module>remote/org.eclipse.remote.proxy.protocol.core</module>
 		<module>remote/org.eclipse.remote.proxy.server.core</module>
 		<module>remote/org.eclipse.remote.proxy.server.product</module>
 		<module>remote/org.eclipse.remote.proxy.server.linux.x86_64</module>
 		<module>remote/org.eclipse.remote.proxy.server.linux.ppc64le</module>
-		<module>remote/org.eclipse.remote.proxy.server.macosx.x86_64</module>
+		<module>remote/org.eclipse.remote.proxy.server.macosx.x86_64</module> -->
 		<!-- Main feature -->
-		<module>remote/org.eclipse.remote-feature</module>
+		<!-- <module>remote/org.eclipse.remote-feature</module> -->
 		<!-- Proxy feature -->
-		<module>remote/org.eclipse.remote.proxy-feature</module>
+		<!-- <module>remote/org.eclipse.remote.proxy-feature</module> -->
 		<!-- Console Terminal feature -->
-		<module>remote/org.eclipse.remote.console</module>
-		<module>remote/org.eclipse.remote.console-feature</module>
+		<!-- <module>remote/org.eclipse.remote.console</module>
+		<module>remote/org.eclipse.remote.console-feature</module> -->
 		<!-- Serial Port feature -->
-		<module>remote/org.eclipse.remote.serial.core</module>
+		<!-- <module>remote/org.eclipse.remote.serial.core</module>
 		<module>remote/org.eclipse.remote.serial.ui</module>
-		<module>remote/org.eclipse.remote.serial-feature</module>
+		<module>remote/org.eclipse.remote.serial-feature</module> -->
 		<!-- Telnet feature -->
-		<module>remote/org.eclipse.remote.telnet.core</module>
+		<!-- <module>remote/org.eclipse.remote.telnet.core</module>
 		<module>remote/org.eclipse.remote.telnet.ui</module>
-		<module>remote/org.eclipse.remote.telnet-feature</module>
+		<module>remote/org.eclipse.remote.telnet-feature</module> -->
 		<!-- Documentation -->
-		<module>remote/org.eclipse.remote.doc.isv</module>
+		<!-- <module>remote/org.eclipse.remote.doc.isv</module> -->
 
-		<module>terminal</module>
+		<!-- <module>terminal</module>
 
 		<module>jsoncdb</module>
-		<module>cmake</module>
+		<module>cmake</module> -->
 
 		<module>releng/org.eclipse.cdt.native-feature</module>
 		<module>releng/org.eclipse.cdt</module>
 		<module>releng/org.eclipse.cdt.platform.branding</module>
 		<module>releng/org.eclipse.cdt.platform-feature</module>
 		<module>releng/org.eclipse.cdt-feature</module>
-		<module>releng/org.eclipse.cdt.sdk</module>
-		<module>releng/org.eclipse.cdt.sdk-feature</module>
+		<!-- <module>releng/org.eclipse.cdt.sdk</module>
+		<module>releng/org.eclipse.cdt.sdk-feature</module> -->
 		<module>releng/org.eclipse.cdt.target</module>
-		<module>releng/org.eclipse.cdt.repo</module>
+		<!-- <module>releng/org.eclipse.cdt.repo</module> -->
 
-		<module>build/org.eclipse.cdt.managedbuilder.core.tests</module>
+		<!-- <module>build/org.eclipse.cdt.managedbuilder.core.tests</module>
 		<module>build/org.eclipse.cdt.managedbuilder.ui.tests</module>
 		<module>build/org.eclipse.cdt.make.core.tests</module>
 		<module>build/org.eclipse.cdt.make.ui.tests</module>
@@ -307,7 +308,7 @@
 
 		<module>releng/org.eclipse.cdt.testing</module>
 		<module>releng/org.eclipse.cdt.testing-feature</module>
-		<module>releng/org.eclipse.cdt.testing.repo</module>
+		<module>releng/org.eclipse.cdt.testing.repo</module> -->
 
 		<!-- TODO:  Investigate/Fix hanging before re-enable re-enabling
 		<module>debug/org.eclipse.cdt.debug.application.tests</module>
